@@ -1,0 +1,19 @@
+{
+  "name": "gilbitron/what-the-cron",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Gilbert Pellegrom",
+      "email": "gilbert@pellegrom.me"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "nesbot/carbon": "^2.27"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gilbitron\\WhatTheCron\\": "src/"
+    }
+  }
+}
