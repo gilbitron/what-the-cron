@@ -73,13 +73,7 @@ class Plugin
 
     public function admin_menu()
     {
-        $hook = add_management_page(
-            'What The Cron',
-            'What The Cron',
-            'install_plugins',
-            'what-the-cron',
-            [$this, 'admin_page'],
-        );
+        $hook = add_management_page('What The Cron', 'What The Cron', 'install_plugins', 'what-the-cron', [$this, 'admin_page']);
     }
 
     public function admin_page()
