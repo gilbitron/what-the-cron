@@ -7,3 +7,7 @@ It also runs a ping every minute to check if the cron is running and will show a
 as well as displaying which events are overdue.
 
 ![What The Cron](https://user-images.githubusercontent.com/203882/70338739-5f5d9500-1845-11ea-9534-d8f61a83118a.png)
+
+## Credits
+
+What The Cron was created by [Gilbert Pellegrom](https://gilbitron.me) from [Dev7studios](https://dev7studios.co). Released under the GPLv2 license.
