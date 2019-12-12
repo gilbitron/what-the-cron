@@ -235,7 +235,7 @@ class Plugin
             function ($event) {
                 $event->next_run = date($this->timeFormat, $event->time);
                 $event->next_run_local = get_date_from_gmt(date('Y-m-d H:i:s', $event->time), $this->timeFormat);
-                $event->next_run_relative = Carbon::parse($event->next_run_local)->diffForHumans();
+                $event->next_run_relative = Carbon::parse($event->next_run_local, wp_timezone())->diffForHumans();
                 $event->is_due = $event->time < time();
 
                 return $event;
@@ -284,7 +284,7 @@ class Plugin
         $lastCronPing = $this->lastCronPing();
 
         if ($lastCronPing) {
-            return Carbon::parse($lastCronPing)->diffForHumans();
+            return Carbon::parse($lastCronPing, wp_timezone())->diffForHumans();
         }
 
         return '';
