@@ -3,7 +3,7 @@
 Plugin Name:  What The Cron
 Description:  What is the deal with my cron?
 Author:       Gilbert Pellegrom
-Version:      0.1.0
+Version:      0.1.1
 Requires PHP: 7.0
 Requires WP:  5.0
 License:      GPLv2 or later
