@@ -268,8 +268,6 @@ class Plugin
      */
     protected function lastCronPing()
     {
-        $events = $this->getCronEvents();
-
         $time = wp_next_scheduled('wtc_cron_ping');
         if ($time) {
             return get_date_from_gmt(date('Y-m-d H:i:s', ($time - 60)), $this->timeFormat);
