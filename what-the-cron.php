@@ -5,7 +5,7 @@ Description:  What is the deal with my cron?
 Author:       Gilbert Pellegrom
 Version:      0.1.1
 Requires PHP: 7.0
-Requires WP:  5.0
+Requires WP:  5.3
 License:      GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  what-the-cron

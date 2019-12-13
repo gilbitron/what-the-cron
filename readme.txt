@@ -1,7 +1,7 @@
 === What The Cron ===
 Contributors: gilbitron
 Tags: admin, cron, plugin, wp-cron
-Requires at least: 5.0
+Requires at least: 5.3
 Tested up to: 5.3
 Requires PHP: 7.0
 Stable tag: 0.1.1
