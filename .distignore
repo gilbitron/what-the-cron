@@ -1,0 +1,9 @@
+/wp-assets
+/.git
+/.github
+
+.distignore
+.gitignore
+deploy.sh
+Thumbs.db
+README.md

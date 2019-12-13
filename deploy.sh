@@ -162,6 +162,7 @@ echo "Ignoring GitHub specific files"
 svn propset svn:ignore "README.md
 deploy.sh
 Thumbs.db
+.distignore
 .github/*
 .git
 .gitattributes
