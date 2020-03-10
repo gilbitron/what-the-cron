@@ -2,7 +2,7 @@
 Contributors: gilbitron
 Tags: admin, cron, plugin, wp-cron
 Requires at least: 5.3
-Tested up to: 5.3
+Tested up to: 5.4
 Requires PHP: 7.0
 Stable tag: 0.1.2
 License: GPLv2 or later
